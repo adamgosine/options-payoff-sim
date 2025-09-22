@@ -29,8 +29,3 @@ This tool lets users:
 pip install -r requirements.txt
 python options_payoff.py
 
-## 📊 Example Output
-
-This payoff diagram simulates a **long call** on $TSLA with a strike price of $250:
-
-![Payoff Plot](payoff_plot.png)
