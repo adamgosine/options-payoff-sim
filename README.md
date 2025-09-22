@@ -28,4 +28,6 @@ This tool lets users:
 ```bash
 pip install -r requirements.txt
 python options_payoff.py
+![Example Output](chart.png)
+
 
