@@ -9,25 +9,24 @@ This tool lets users:
 - Visualize the profit/loss curve
 - Identify breakeven, max loss, and risk/reward dynamics
 
-##  Features
+## Features
 
--  Long Call P&L Visualization
--  Live data from `yfinance`
--  Strategy modeling & breakeven analysis
--  Payoff curve export as PNG
+- Long Call P&L Visualization
+- Live data from `yfinance`
+- Strategy modeling & breakeven analysis
+- Payoff curve export as PNG
 
-##  Tech Stack
+## Tech Stack
 
 - Python
 - yfinance
 - pandas
 - matplotlib
 
-##  How to Run
+## How to Run
 
 ```bash
 pip install -r requirements.txt
 python options_payoff.py
-![Example Output](chart.png)
 
 
