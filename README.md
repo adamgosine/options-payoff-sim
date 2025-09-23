@@ -1,32 +1,26 @@
-# options-payoff-sim
 #  Options Payoff Simulator
 
-A Python project that simulates profit/loss for options trading strategies (starting with long calls) using **live market data** from Yahoo Finance.
+A Python tool that simulates profit and loss (PnL) for **long call options** using live option chain data from Yahoo Finance. Designed to help traders understand breakeven points, expiration outcomes, and visualize strategy risk-reward.
 
-This tool lets users:
-- Pull real option chain data for any stock
-- Simulate a range of expiration prices
-- Visualize the profit/loss curve
-- Identify breakeven, max loss, and risk/reward dynamics
+---
 
-## Features
+##  Features
 
-- Long Call P&L Visualization
-- Live data from `yfinance`
-- Strategy modeling & breakeven analysis
-- Payoff curve export as PNG
+-  Pulls real-time options data via `yfinance`
+-  Generates payoff plots using `matplotlib`
+-  Highlights breakeven and strike price levels
+-  Exports charts as PNGs for analysis
 
-## Tech Stack
+---
 
-- Python
-- yfinance
-- pandas
-- matplotlib
+##  Example Output
 
-## How to Run
+![TSLA Call Payoff](charts/tsla_call_payoff.png)
 
+---
+
+##  How to Run
+
+### 1. Install dependencies:
 ```bash
 pip install -r requirements.txt
-python options_payoff.py
-
-

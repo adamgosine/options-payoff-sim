@@ -31,6 +31,6 @@ plt.ylabel("Profit / Loss ($)")
 plt.grid(True)
 plt.legend()
 plt.tight_layout()
-plt.savefig("payoff_plot.png")
+plt.savefig("charts/tsla_call_payoff.png")
 plt.show()
 
