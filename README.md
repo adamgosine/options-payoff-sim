@@ -21,6 +21,4 @@ pip install -r requirements.txt
 
 ##  Example Output
 
-![TSLA Call Payoff](charts/tsla_call_payoff.png)
-
-
+![TSLA Call Payoff](src/charts/tsla_call_payoff.png)
