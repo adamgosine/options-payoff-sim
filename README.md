@@ -12,15 +12,14 @@ A Python tool that simulates profit and loss (PnL) for **long call options** usi
 -  Exports charts as PNGs for analysis
 
 ---
-
-##  Example Output
-
-![TSLA Call Payoff](charts/tsla_call_payoff.png)
-
----
-
 ##  How to Run
 
 ### 1. Install dependencies:
 ```bash
 pip install -r requirements.txt
+
+
+##  Example Output
+
+![TSLA Call Payoff](charts/tsla_call_payoff.png)
+
